@@ -1,6 +1,6 @@
 import 'package:sqflite/sqflite.dart';
-import 'database_helper.dart';
-import 'folder_model.dart';
+import '../database/database_helper.dart';
+import '../models/folder_model.dart';
 
 class FolderRepository {
   final dbHelper = DatabaseHelper.instance;
